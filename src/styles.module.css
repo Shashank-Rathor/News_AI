@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  .card {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    padding: 3%;
+    border-radius: 10;
+    color: white;
+    background-color: rgba(21, 101, 192);
+    margin: 0 12px;
+    text-align: center;
+    height: 25vmin;
+  }
+  .title{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #e11d74;
+  }
+  .container{
+    background-image: url('./assets/background.jpg');
+    height: 100%;
+  }
+
+  @media(max-width: 600px){
+    .container{
+      height: 1600px;
+    }
+    .title {
+      margin-left: 30px;
+    }
+  }
+  .infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logoContainer {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .alanLogo {
+    border-radius: 20px;
+    margin: 20px 0 20px 0 ;
+    width: 30%;
+  }
