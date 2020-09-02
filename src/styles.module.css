@@ -25,6 +25,9 @@
   }
 
   @media(max-width: 600px){
+    .card{
+      height: 220px;
+    }
     .container{
       height: 1600px;
     }

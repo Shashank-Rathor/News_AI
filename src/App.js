@@ -6,6 +6,7 @@ import { Typography } from '@material-ui/core';
 import wordsToNumbers from 'words-to-numbers';
 
 const alanKey = 'aaa7adc0813362424cfb7e24567bd9e92e956eca572e1d8b807a3e2338fdd0dc/stage';
+//2592 interactions
 
 const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);

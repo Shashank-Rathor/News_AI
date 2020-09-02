@@ -1,7 +1,7 @@
 {
   "name": "news_ai",
   "version": "0.1.0",
-  'homepage': "http://Shashank-Rathor.github.io/News_AI",
+  "homepage": "http://Shashank-Rathor.github.io/News_AI",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
